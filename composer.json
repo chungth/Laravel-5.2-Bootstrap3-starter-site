@@ -8,6 +8,7 @@
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
         "laravel/homestead": "^3.0",
+        "codesleeve/laravel-stapler": "^1.0",
         "intervention/image": "^2.3"
     },
     "require-dev": {
