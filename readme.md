@@ -9,6 +9,8 @@
 * Đăng ký / Login bằng email
 * Login thông qua tài khoản mạng xã hội
 * Quản lý User, Profile của User
+...
+
 ## Package list:
 * Laravel Homestead : gói cài đặt sẵn môi trường phát triển cho Laravel
 * barryvdh/laravel-ide-helper: generate file giúp các IDE có thể autocomplete các method của Laravel
