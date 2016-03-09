@@ -13,6 +13,7 @@
 * laravel/socialite: Oauth với Faebook, Twitter, Google, Linkedin, Github, Bitbucket
 * "codesleeve/laravel-stapler": upload ảnh
 * intervention/image: manipulate ảnh
+
 ## Cài đặt
  //TODO: viết quá trình cài đặt
 
