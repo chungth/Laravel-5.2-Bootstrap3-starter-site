@@ -7,9 +7,10 @@
 
 ## Feature List:
 * Laravel Homestead : gói cài đặt sẵn môi trường phát triển cho Laravel
-* barryvdh/laravel-ide-helper: generate
+* barryvdh/laravel-ide-helper: generate file giúp các IDE có thể autocomplete các method của Laravel
 
 ## Cài đặt
+ //TODO: viết quá trình cài đặt
 
 ## Official Documentation
 
