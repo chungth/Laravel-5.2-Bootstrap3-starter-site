@@ -5,7 +5,11 @@
   Ngoài ra có thể sử dụng project như một nơi thử các package hay giới thiệu
   cho cộng đồng.
 
-## Feature List:
+## Featue List:
+* Đăng ký / Login bằng email
+* Login thông qua tài khoản mạng xã hội
+* Quản lý User, Profile của User
+## Package list:
 * Laravel Homestead : gói cài đặt sẵn môi trường phát triển cho Laravel
 * barryvdh/laravel-ide-helper: generate file giúp các IDE có thể autocomplete các method của Laravel
 * spatie/laravel-tail: Tail log của ứng dụng trên các môi trường 1 cách thuận tiện
