@@ -21,7 +21,17 @@
 * intervention/image: manipulate ảnh
 
 ## Cài đặt
- //TODO: viết quá trình cài đặt
+* Clone source code project về local
+* Cài đặt các package của project bằng lệnh: `composer install`
+* Generate homestead file: `vendor/bin/homestead make`
+* Trong file Homestead.yaml sẽ có thông tin của ip virtual domain của máy ảo homestead. Thông thường ip là `192.168.10.10`
+và tên domain là `homestead.app` . thêm virtual domain trỏ vào ip trên vào file hosts của máy.
+* Copy nội dung của file  `.env.example` sang file `.env` :  `cp .env.example .env`
+* Generate key cho ứng dụng bằng lệnh `php artisan key:generate`. Copy chuỗi đó vào biến `APP_KEY` trong file .env
+* Bật máy ảo vagrant : `vagrant up`
+* Kiểm tra ứng dụng đã hoạt động hay chưa bằng cách dùng browser truy cập vào `http://homestead.app`
+* Để login thử vào ứng dụng, cần chạy migrate để tạo schema cho ứng dụng: Login vào máy ảo vagrant bằng lệnh `vagrant ssh`,
+cd vào project folder và chạy lệnh  `php artisan migrate`
 
 ## Official Documentation
 
