@@ -48,3 +48,7 @@ các issue, bắt đầu fix và tạo pull-request
 ## License
 
 [MIT license](http://opensource.org/licenses/MIT)
+
+## Liên hệ & trao đổi
+ [Facebook Group](https://www.facebook.com/groups/239355446412257/)
+ [Facebook Fanpage](https://www.facebook.com/laravelvn/)
