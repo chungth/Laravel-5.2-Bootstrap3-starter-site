@@ -39,11 +39,11 @@ Tài liệu hướng dẫn sử dụng sẽ được tạo trong [Wiki](https://
 
 
 ## Contributing
-
 * Bạn có thể giới thiệu package mới hoặc feature mới bằng cách tạo Pull-Request
 * Trong trường hợp Starter Site có lỗi xảy ra, đừng ngần ngại tạo issue
 * Nếu bạn muốn đóng góp cho project mà chưa có ý tưởng gì có thể bắt đầu bằng cách tự assign mình vào
 các issue, bắt đầu fix và tạo pull-request
+* Recommend: dùng plugin [git-flow](https://github.com/nvie/gitflow)  với branch chính là master và branch development là develop
 
 ## License
 
