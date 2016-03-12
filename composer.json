@@ -9,7 +9,8 @@
         "laravel/framework": "5.2.*",
         "laravel/homestead": "^3.0",
         "codesleeve/laravel-stapler": "^1.0",
-        "intervention/image": "^2.3"
+        "intervention/image": "^2.3",
+        "laravel/socialite": "^2.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
