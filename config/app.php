@@ -159,6 +159,7 @@ return [
         /*
          *  Service Providers for development tool
          */
+        'Spatie\Tail\TailServiceProvider',
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
 
     ],
