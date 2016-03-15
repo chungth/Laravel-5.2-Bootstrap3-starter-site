@@ -13,9 +13,9 @@
 
 ## Package list:
 * Laravel Homestead : gói cài đặt sẵn môi trường phát triển cho Laravel
-* barryvdh/laravel-ide-helper: generate file giúp các IDE có thể autocomplete các method của Laravel
-* spatie/laravel-tail: Tail log của ứng dụng trên các môi trường 1 cách thuận tiện
-* "fabpot/php-cs-fixer":  PSR-fixer tool
+* [barryvdh/laravel-ide-helper](https://github.com/chungth/Laravel-5.2-Bootstrap3-starter-site/wiki/C%C3%A0i-%C4%91%E1%BA%B7t-Laravel5-IDE-Helper-Generator): generate file giúp các IDE có thể autocomplete các method của Laravel
+* [spatie/laravel-tail](https://github.com/chungth/Laravel-5.2-Bootstrap3-starter-site/wiki/Tail-log-c%E1%BB%A7a-Laravel-project-v%E1%BB%9Bi-spatie-laravel-tail): Tail log của ứng dụng trên các môi trường 1 cách thuận tiện
+* ["fabpot/php-cs-fixer"](https://github.com/chungth/Laravel-5.2-Bootstrap3-starter-site/wiki/Tail-log-c%E1%BB%A7a-Laravel-project-v%E1%BB%9Bi-spatie-laravel-tail):  PSR-fixer tool
 * laravel/socialite: Oauth với Faebook, Twitter, Google, Linkedin, Github, Bitbucket
 * "codesleeve/laravel-stapler": upload ảnh
 * intervention/image: manipulate ảnh
