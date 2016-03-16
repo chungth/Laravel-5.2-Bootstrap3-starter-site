@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Exceptions;
+namespace Laravel52SS\Exceptions;
 
 use Exception;
 use Illuminate\Validation\ValidationException;

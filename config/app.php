@@ -151,10 +151,16 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        Laravel52SS\Providers\AppServiceProvider::class,
+        Laravel52SS\Providers\AuthServiceProvider::class,
+        Laravel52SS\Providers\EventServiceProvider::class,
+        Laravel52SS\Providers\RouteServiceProvider::class,
+
+        /*
+         *  Service Providers for development tool
+         */
+        'Spatie\Tail\TailServiceProvider',
+        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
 
     ],
 

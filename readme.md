@@ -1,27 +1,54 @@
-# Laravel PHP Framework
+# Laravel 5.2 Twitter Bootstrap 3 Starter Site
+  Mục đích của project là tạo ra một phiên bản của project mà người dùng có
+  thể sử dụng như điểm bắt đầu dễ dàng hơn cho project của mình.
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+  Ngoài ra có thể sử dụng project như một nơi thử các package hay giới thiệu
+  cho cộng đồng.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+## Featue List:
+* Đăng ký / Login bằng email
+* Login thông qua tài khoản mạng xã hội
+* Quản lý User, Profile của User
+...
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+## Package list:
+* Laravel Homestead : gói cài đặt sẵn môi trường phát triển cho Laravel
+* [barryvdh/laravel-ide-helper](https://github.com/chungth/Laravel-5.2-Bootstrap3-starter-site/wiki/C%C3%A0i-%C4%91%E1%BA%B7t-Laravel5-IDE-Helper-Generator): generate file giúp các IDE có thể autocomplete các method của Laravel
+* [spatie/laravel-tail](https://github.com/chungth/Laravel-5.2-Bootstrap3-starter-site/wiki/Tail-log-c%E1%BB%A7a-Laravel-project-v%E1%BB%9Bi-spatie-laravel-tail): Tail log của ứng dụng trên các môi trường 1 cách thuận tiện
+* ["fabpot/php-cs-fixer"](https://github.com/chungth/Laravel-5.2-Bootstrap3-starter-site/wiki/Tail-log-c%E1%BB%A7a-Laravel-project-v%E1%BB%9Bi-spatie-laravel-tail):  PSR-fixer tool
+* laravel/socialite: Oauth với Faebook, Twitter, Google, Linkedin, Github, Bitbucket
+* "codesleeve/laravel-stapler": upload ảnh
+* intervention/image: manipulate ảnh
+
+## Cài đặt
+* Clone source code project về local
+* Cài đặt các package của project bằng lệnh: `composer install`
+* Generate homestead file: `vendor/bin/homestead make`
+* Trong file Homestead.yaml sẽ có thông tin của ip virtual domain của máy ảo homestead. Thông thường ip là `192.168.10.10`
+và tên domain là `homestead.app` . thêm virtual domain trỏ vào ip trên vào file hosts của máy.
+* Copy nội dung của file  `.env.example` sang file `.env` :  `cp .env.example .env`
+* Generate key cho ứng dụng bằng lệnh `php artisan key:generate`. Copy chuỗi đó vào biến `APP_KEY` trong file .env
+* Bật máy ảo vagrant : `vagrant up`
+* Kiểm tra ứng dụng đã hoạt động hay chưa bằng cách dùng browser truy cập vào `http://homestead.app`
+* Để login thử vào ứng dụng, cần chạy migrate để tạo schema cho ứng dụng: Login vào máy ảo vagrant bằng lệnh `vagrant ssh`,
+cd vào project folder và chạy lệnh  `php artisan migrate`
 
 ## Official Documentation
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+Tài liệu hướng dẫn sử dụng sẽ được tạo trong [Wiki](https://github.com/chungth/Laravel-5.2-Bootstrap3-starter-site/wiki) của Project
+
 
 ## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+* Bạn có thể giới thiệu package mới hoặc feature mới bằng cách tạo Pull-Request
+* Trong trường hợp Starter Site có lỗi xảy ra, đừng ngần ngại tạo issue
+* Nếu bạn muốn đóng góp cho project mà chưa có ý tưởng gì có thể bắt đầu bằng cách tự assign mình vào
+các issue, bắt đầu fix và tạo pull-request
+* Recommend: dùng plugin [git-flow](https://github.com/nvie/gitflow)  với branch chính là master và branch development là develop
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+[MIT license](http://opensource.org/licenses/MIT)
+
+## Liên hệ & trao đổi
+ [Facebook Group](https://www.facebook.com/groups/239355446412257/)
+ [Facebook Fanpage](https://www.facebook.com/laravelvn/)
