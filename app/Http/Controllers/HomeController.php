@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Laravel52SS\Http\Controllers;
 
-use App\Http\Requests;
+use Laravel52SS\Http\Requests;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
