@@ -156,6 +156,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         Rap2hpoutre\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
+        'Creativeorange\Gravatar\GravatarServiceProvider',
 
         /*
          *  Service Providers for development tool
@@ -208,6 +209,7 @@ return [
         'URL'       => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
+        'Gravatar' => 'Creativeorange\Gravatar\Facades\Gravatar',
 
     ],
 
