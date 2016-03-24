@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7d767eca25c7e9b04b865861c17e4f20",
-    "content-hash": "1fc1f55ce43c2f6ea2f257b4a8e75697",
+    "hash": "2522f0e7272a39d30a137dbab199e585",
+    "content-hash": "e9c2bdf66b9c4cf6738b1651eaee6331",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -163,6 +163,50 @@
                 "upload"
             ],
             "time": "2016-01-30 21:39:33"
+        },
+        {
+            "name": "creativeorange/gravatar",
+            "version": "v1.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/creativeorange/gravatar.git",
+                "reference": "77d0dcb6af3c5862164cd2a225bb6460cd47cad7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/creativeorange/gravatar/zipball/77d0dcb6af3c5862164cd2a225bb6460cd47cad7",
+                "reference": "77d0dcb6af3c5862164cd2a225bb6460cd47cad7",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "5.0.*|5.1.*|5.2.*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Creativeorange\\Gravatar\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jaco Tijssen",
+                    "email": "jaco@creativeorange.nl",
+                    "homepage": "https://www.creativeorange.nl",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A Laravel 5.0, 5.1 and 5.2 gravatar package for retrieving gravatar image URLs or checking the existance of an image.",
+            "keywords": [
+                "avatar",
+                "gravatar",
+                "laravel"
+            ],
+            "time": "2015-12-22 14:04:01"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
